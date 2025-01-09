@@ -1,3 +1,5 @@
+use alloc::vec::Vec;
+
 use serde::{Deserialize, Serialize};
 use wamr_rust_sdk::value::WasmValue;
 
