@@ -1,0 +1,8 @@
+[package]
+name = "pervade_server"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = "1"
+pervade_common.workspace = true

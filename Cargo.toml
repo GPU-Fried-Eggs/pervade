@@ -1,0 +1,10 @@
+[workspace]
+members = [
+    "crates/pervade_common",
+    "crates/pervade_container",
+    "crates/pervade_server"
+]
+resolver = "2"
+
+[workspace.dependencies]
+pervade_common = { path = "crates/pervade_common" }

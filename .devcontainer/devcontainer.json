@@ -1,0 +1,27 @@
+{
+  "name": "pervade",
+  "build": {
+    "dockerfile": "./Dockerfile",
+    "context": "."
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {
+      "installZsh": "true",
+      "username": "pervade",
+      "userUid": "3000",
+      "userGid": "3000"
+    },
+    "ghcr.io/devcontainers/features/rust:1": {
+      "version": "latest",
+      "targets": [
+        "wasm32-unknown-unknown",
+        "wasm32-wasi"
+      ]
+    },
+    "ghcr.io/devcontainers/features/git:1": {
+      "version": "latest",
+      "ppa": "false"
+    }
+  },
+  "remoteUser": "pervade"
+}
