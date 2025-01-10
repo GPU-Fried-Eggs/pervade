@@ -1,0 +1,13 @@
+{
+  "name": "pervade",
+  "version": "0.0.1",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "test": "node tests",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "latest"
+  }
+}

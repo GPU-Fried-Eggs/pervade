@@ -15,12 +15,11 @@
       "version": "latest",
       "targets": [
         "wasm32-unknown-unknown",
-        "wasm32-wasi"
+        "wasm32-wasip1"
       ]
     },
-    "ghcr.io/devcontainers/features/git:1": {
-      "version": "latest",
-      "ppa": "false"
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "lts"
     }
   },
   "remoteUser": "pervade"

@@ -1,5 +1,6 @@
 [workspace]
 members = [
+    "crates/pervade_cli",
     "crates/pervade_common",
     "crates/pervade_container",
     "crates/pervade_server"
