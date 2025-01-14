@@ -1,11 +1,13 @@
 mod commands;
+mod generate;
+mod runtime;
 
 use clap::Parser;
 use commands::Commands;
 
 #[derive(Debug, Parser)] // requires `derive` feature
-#[command(name = "git")]
-#[command(about = "A fictional versioning CLI", long_about = None)]
+#[command(name = "pervade")]
+#[command(about = "Show ", long_about = None)]
 struct PervadeCli {
     #[command(subcommand)]
     command: Commands,

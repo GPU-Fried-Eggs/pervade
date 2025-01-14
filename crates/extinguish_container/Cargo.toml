@@ -1,9 +1,9 @@
 [package]
-name = "pervade_container"
+name = "extinguish_container"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-pervade_common.workspace = true
+extinguish_common.workspace = true
 serde = { version = "1", features = ["derive"] }
 wamr-rust-sdk = { git = "https://github.com/bytecodealliance/wamr-rust-sdk" }

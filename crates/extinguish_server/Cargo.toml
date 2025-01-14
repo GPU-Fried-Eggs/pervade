@@ -1,8 +1,8 @@
 [package]
-name = "pervade_server"
+name = "extinguish_server"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-pervade_common.workspace = true
+extinguish_common.workspace = true
 tokio = "1"

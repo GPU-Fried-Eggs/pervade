@@ -6,7 +6,6 @@
   },
   "features": {
     "ghcr.io/devcontainers/features/common-utils:2": {
-      "installZsh": "true",
       "username": "pervade",
       "userUid": "3000",
       "userGid": "3000"
