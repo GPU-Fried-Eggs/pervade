@@ -1,6 +1,6 @@
 mod commands;
-mod generate;
-mod runtime;
+mod generator;
+mod parser;
 
 use clap::Parser;
 use commands::Commands;
@@ -17,8 +17,11 @@ fn main() {
     let PervadeCli { command } = PervadeCli::parse();
 
     match command {
+        Commands::Build { input, output } => {
+            
+        },
         Commands::Deploy => {
             println!("Deploy");
-        },
+        }
     }
 }

@@ -4,9 +4,11 @@ members = [
     "crates/extinguish_container",
     "crates/extinguish_server",
     "crates/pervade_cli",
+    "crates/pervade_compiler",
     "crates/pervade_runtime",
 ]
 resolver = "2"
 
 [workspace.dependencies]
 extinguish_common = { path = "crates/extinguish_common" }
+pervade_compiler = { path = "crates/pervade_compiler" }
