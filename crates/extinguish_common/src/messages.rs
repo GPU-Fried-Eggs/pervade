@@ -68,8 +68,8 @@ impl ClientMessage {
 mod tests {
     use wamr_rust_sdk::value::WasmValue;
 
-    use crate::value::Value;
     use super::*;
+    use crate::value::Value;
 
     #[test]
     fn test_server_message_serde() {

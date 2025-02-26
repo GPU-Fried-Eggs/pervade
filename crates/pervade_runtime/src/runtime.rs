@@ -32,11 +32,11 @@ impl Runtime {
                 if intrinsics.contains(JSIntrinsics::DATE) {
                     intrinsic::Date::add_intrinsic(raw_ctx)
                 }
-    
+
                 if intrinsics.contains(JSIntrinsics::EVAL) {
                     intrinsic::Eval::add_intrinsic(raw_ctx)
                 }
-    
+
                 if intrinsics.contains(JSIntrinsics::REGEXP_COMPILER) {
                     intrinsic::RegExpCompiler::add_intrinsic(raw_ctx)
                 }
@@ -52,19 +52,19 @@ impl Runtime {
                 if intrinsics.contains(JSIntrinsics::PROXY) {
                     intrinsic::Proxy::add_intrinsic(raw_ctx)
                 }
-    
+
                 if intrinsics.contains(JSIntrinsics::MAP_SET) {
                     intrinsic::MapSet::add_intrinsic(raw_ctx)
                 }
-    
+
                 if intrinsics.contains(JSIntrinsics::TYPED_ARRAY) {
                     intrinsic::TypedArrays::add_intrinsic(raw_ctx)
                 }
-    
+
                 if intrinsics.contains(JSIntrinsics::PROMISE) {
                     intrinsic::Promise::add_intrinsic(raw_ctx)
                 }
-    
+
                 if intrinsics.contains(JSIntrinsics::BIG_INT) {
                     intrinsic::BigInt::add_intrinsic(raw_ctx)
                 }
@@ -90,7 +90,7 @@ impl Runtime {
                 }
 
                 if let Err(e) = result {
-                    return Err(Error::JobException(e.to_string()))
+                    return Err(Error::JobException(e.to_string()));
                 }
             }
         }

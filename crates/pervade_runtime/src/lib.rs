@@ -22,7 +22,7 @@ mod config;
 mod error;
 mod runtime;
 
-pub use rquickjs as qjs;
 pub use config::{Config, JSIntrinsics};
 pub use error::Error;
+pub use rquickjs as qjs;
 pub use runtime::Runtime;
